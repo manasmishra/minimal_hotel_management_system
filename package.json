@@ -4,7 +4,8 @@
   "description": "A minimal hotel management system for managing rooms available in a hotel.",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node bin/www"
   },
   "author": "Manas",
   "license": "UNLICENSED",

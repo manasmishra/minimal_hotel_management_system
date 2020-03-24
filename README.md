@@ -1,16 +1,21 @@
-#minimal_hotel_management_system
+# minimal_hotel_management_system
 
 Description: This is a minimal hotel management which allows people to add a user, find a user and update user details.
-#Assumptions:
+
+# Hoe to run the project:
+1. npm install" - This will install all the required dependencies
+2. "npm start" or "node bin/www" - will start the server by default in 3003 port.
+3. "PORT=3000 npm start" - Set enviornment variable PORT to given port and start the server in given port.
+# Assumptions:
 1. I have used in memory to store the data hence it will flush all data upon restart.
 2. I have not written any unit test cases. If required let me know will write the same.
 3. I have not covered all edge cases and validation checks for input parameters.
 4. Tried my best to handle error cases.
-Hotel services:
+# Hotel services:
 1. I have used hotelLayout.json file to initialize no of rooms, no of room types and prices for each room type. Also the same can be done by taking input from the user.
 2. Upon checking rooms availability and/or upon doing a checkin for a room along with room type it initializes the hotel layout and do the needful.
 
-#APIS
+# APIS
 1. Get available Rooms: GET: http://localhost:3003/rooms/:availability
 availability: true -> It will return all avaiable rooms with room type wise.
 2. Create a User: POST: http://localhost:3003/users
