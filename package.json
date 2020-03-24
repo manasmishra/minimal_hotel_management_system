@@ -1,0 +1,14 @@
+{
+  "name": "hotel_management_system",
+  "version": "1.0.0",
+  "description": "A minimal hotel management system for managing rooms available in a hotel.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Manas",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

@@ -1,0 +1,18 @@
+{
+    "RoomType1": {
+        "price": 100,
+        "noOfRoms": 5
+    },
+    "RoomType2": {
+        "price": 200,
+        "noOfRoms": 5
+    },
+    "RoomType3": {
+        "price": 300,
+        "noOfRoms": 5
+    },
+    "RoomType4": {
+        "price": 400,
+        "noOfRoms": 5
+    }
+}
