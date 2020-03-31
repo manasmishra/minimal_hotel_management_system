@@ -1,6 +1,6 @@
 # minimal_hotel_management_system
 
-Description: This is a minimal hotel management which allows people to add a user, find a user and update user details.
+Description:  This is a minimal hotel management which allows people to add a user, find a user and update user details.
 
 # Hoe to run the project:
 1. npm install" - This will install all the required dependencies
